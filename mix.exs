@@ -32,7 +32,7 @@ defmodule Meeseeks.Mixfile do
 
   defp deps do
     [
-      {:meeseeks_html5ever, github: "zoonect-oss/meeseeks_html5ever", branch: "feature/deps-upgrade"},
+      {:meeseeks_html5ever, github: "sevab/meeseeks_html5ever", branch: "feature/deps-upgrade"},
 
       # Dev
       {:dialyxir, "~> 0.5", only: :dev, runtime: false},
